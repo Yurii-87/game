@@ -9,7 +9,8 @@
 @font-face {
   font-family: "Pulsar - Original";
   font-display: swap;
-  src: url("../fonts/PulsarOriginalRegular.woff2") format("woff2"), url("../fonts/PulsarOriginalRegular.woff") format("woff");
+  src: url("../fonts/PulsarOriginalRegular.woff2") format("woff2"),
+    url("../fonts/PulsarOriginalRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -119,7 +120,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  background: #141C24;
+  background: #141c24;
 }
 .wrapper > main {
   flex: 1 1 auto;
@@ -128,17 +129,17 @@ body {
   min-width: 0;
 }
 
-[class*=__container] {
+[class*="__container"] {
   max-width: 73.125rem;
   box-sizing: content-box;
   margin: 0 auto;
   padding: 0 0.9375rem;
 }
 
-[class*=-ibg] {
+[class*="-ibg"] {
   position: relative;
 }
-[class*=-ibg] img {
+[class*="-ibg"] img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -147,7 +148,7 @@ body {
   object-fit: cover;
 }
 
-[class*=-ibg_contain] img {
+[class*="-ibg_contain"] img {
   object-fit: contain;
 }
 
@@ -216,7 +217,7 @@ body {
   min-height: 123px;
   position: absolute;
   z-index: 5;
-  background: #141C24;
+  background: #141c24;
   top: 0;
   left: 0;
   width: 100%;
@@ -234,7 +235,7 @@ body {
   width: 100%;
 }
 .header__logo {
-  background: url("../img/oll-img/main-logo.svg") 0 0/contain no-repeat;
+  background: url("../img/oll-img/main-logo.svg") 0 0 / contain no-repeat;
   width: 190px;
   height: 28px;
 }
@@ -245,7 +246,7 @@ body {
 }
 @media (min-width: 62em) and (max-width: 79.375em) {
   .header__logo {
-    margin-right: clamp( 2.5rem , -10.881294964rem  +  21.5827338129vw , 6.25rem );
+    margin-right: clamp(2.5rem, -10.881294964rem + 21.5827338129vw, 6.25rem);
   }
 }
 @media (max-width: 62em) {
@@ -346,7 +347,7 @@ body {
 }
 @media (max-width: 61.99875em) {
   .footer__rigth {
-    order: 1px;
+    order: 1;
   }
 }
 @media (max-width: 47.99875em) {
@@ -415,7 +416,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .swiper__slider {
-    padding-bottom: clamp( 3.75rem , 1.6071428571rem  +  9.5238095238vw , 8.75rem );
+    padding-bottom: clamp(3.75rem, 1.6071428571rem + 9.5238095238vw, 8.75rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -435,19 +436,19 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 0 0 24px 24px;
-  background: url("../img/swiper/slide1.jpg") 50% 0/cover no-repeat;
+  /*background: url("../img/swiper/slide1.jpg") 50% 0/cover no-repeat;*/
 }
 .swiper__img_1 {
-  background: url("../img/swiper/slide1.jpg") 50% 0/cover no-repeat;
+  background: url("../img/swiper/slide1.jpg") 50% 0 / cover no-repeat;
 }
 .swiper__img_2 {
-  background: url("../img/swiper/slide2.jpg") 50% 0/cover no-repeat;
+  background: url("../img/swiper/slide2.jpg") 50% 0 / cover no-repeat;
 }
 .swiper__img_3 {
-  background: url("../img/swiper/slide3.jpg") 50% 0/cover no-repeat;
+  background: url("../img/swiper/slide3.jpg") 50% 0 / cover no-repeat;
 }
 .swiper__img_4 {
-  background: url("../img/swiper/slide4.jpg") 50% 0/cover no-repeat;
+  background: url("../img/swiper/slide4.jpg") 50% 0 / cover no-repeat;
 }
 .swiper__image {
   position: absolute;
@@ -476,7 +477,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .swiper__body {
-    padding-top: clamp( 18.125rem , 14.8303571429rem  +  14.6428571429vw , 25.8125rem );
+    padding-top: clamp(18.125rem, 14.8303571429rem + 14.6428571429vw, 25.8125rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -522,7 +523,7 @@ body {
 .swiper__btn {
   width: 251px;
   height: 61px;
-  background: url("../img/oll-img/btn-bg.svg") 0 0/contain no-repeat;
+  background: url("../img/oll-img/btn-bg.svg") 0 0 / contain no-repeat;
 }
 
 .burger {
@@ -646,7 +647,7 @@ body {
 }
 @media (min-width: 47.99875em) and (min-width: 22.5em) and (max-width: 75em) {
   .gaming__container {
-    column-gap: clamp( 1.875rem , 0.8571428571rem  +  4.5238095238vw , 4.25rem );
+    column-gap: clamp(1.875rem, 0.8571428571rem + 4.5238095238vw, 4.25rem);
   }
 }
 @media (min-width: 47.99875em) and (max-width: 22.5em) {
@@ -724,7 +725,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .gaming__sub-logo {
-    margin-bottom: clamp( 1.875rem , 1.0714285714rem  +  3.5714285714vw , 3.75rem );
+    margin-bottom: clamp(1.875rem, 1.0714285714rem + 3.5714285714vw, 3.75rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -766,7 +767,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .start {
-    margin-bottom: clamp( 7.0625rem , 5.9375rem  +  5vw , 9.6875rem );
+    margin-bottom: clamp(7.0625rem, 5.9375rem + 5vw, 9.6875rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -893,7 +894,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .tariffs {
-    margin-bottom: clamp( 2.5rem , -2.5892857143rem  +  22.619047619vw , 14.375rem );
+    margin-bottom: clamp(2.5rem, -2.5892857143rem + 22.619047619vw, 14.375rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -926,7 +927,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .tariffs__sub-logo {
-    margin-bottom: clamp( 3.625rem , 3.0357142857rem  +  2.619047619vw , 5rem );
+    margin-bottom: clamp(3.625rem, 3.0357142857rem + 2.619047619vw, 5rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -1090,7 +1091,7 @@ body {
   padding-bottom: 70%;
   min-height: 320px;
   transform: translate(0, -20%);
-  background: url("../img/onbrowser/onbrowser-bg.png") 50% 0/contain no-repeat;
+  background: url("../img/onbrowser/onbrowser-bg.png") 50% 0 / contain no-repeat;
 }
 @media (max-width: 47.99875em) {
   .onbrowser__img {
@@ -1121,7 +1122,7 @@ body {
 @media (max-width: 47.99875em) {
   .map__img {
     padding-bottom: 75%;
-    background: url("../img/map/map.png") 50% 0/cover no-repeat;
+    background: url("../img/map/map.png") 50% 0 / cover no-repeat;
   }
 }
 @media (max-width: 47.99875em) {
@@ -1200,7 +1201,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .modal-download__wrap {
-    margin-bottom: clamp( 4.375rem , 2.9017857143rem  +  6.5476190476vw , 7.8125rem );
+    margin-bottom: clamp(4.375rem, 2.9017857143rem + 6.5476190476vw, 7.8125rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -1242,7 +1243,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .modal-contact {
-    padding-top: clamp( 3.75rem , -0.7232142857rem  +  19.880952381vw , 14.1875rem );
+    padding-top: clamp(3.75rem, -0.7232142857rem + 19.880952381vw, 14.1875rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -1267,7 +1268,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .modal-contact__wrap {
-    margin-bottom: clamp( 2.1875rem , 1.6517857143rem  +  2.380952381vw , 3.4375rem );
+    margin-bottom: clamp(2.1875rem, 1.6517857143rem + 2.380952381vw, 3.4375rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -1407,7 +1408,7 @@ body {
   padding: 0 10px;
   font-size: 24px;
   color: #000000;
-  background: url("../img/oll-img/btn-bg.svg") 0 0/cover no-repeat;
+  background: url("../img/oll-img/btn-bg.svg") 0 0 / cover no-repeat;
 }
 .modal-registr {
   padding: 0 15px;
@@ -1477,7 +1478,7 @@ body {
 .modal-registr__buttons {
   display: flex;
   flex-direction: column;
-  grid-template: 50px;
+  /* grid-template: 50px; */
   align-items: center;
   row-gap: 50px;
 }
@@ -1491,7 +1492,7 @@ body {
   padding: 0 10px;
   font-size: 24px;
   color: #000000;
-  background: url("../img/oll-img/btn-bg.svg") 0 0/cover no-repeat;
+  background: url("../img/oll-img/btn-bg.svg") 0 0 / cover no-repeat;
 }
 .modal-registr__check {
   display: flex;
@@ -1573,7 +1574,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .modal-info__wrap {
-    margin-bottom: clamp( 2.1875rem , 1.3839285714rem  +  3.5714285714vw , 4.0625rem );
+    margin-bottom: clamp(2.1875rem, 1.3839285714rem + 3.5714285714vw, 4.0625rem);
   }
 }
 @media (max-width: 22.5em) {
@@ -1621,7 +1622,7 @@ body {
 }
 @media (min-width: 22.5em) and (max-width: 75em) {
   .modal-tariff__wrap {
-    margin-bottom: clamp( 2.1875rem , 1.3839285714rem  +  3.5714285714vw , 4.0625rem );
+    margin-bottom: clamp(2.1875rem, 1.3839285714rem + 3.5714285714vw, 4.0625rem);
   }
 }
 @media (max-width: 22.5em) {
