@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>Game</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+   <meta name="robots" content="noindex, nofollow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__logo">
+            </div>
+            <nav class="header__menu" <ul class="header__list">
+               <li class="header__item"><a href="#" class="header__linck">Главная</a></li>
+
+               <li class="header__item"><a href="#" data-goto="#map" class="header__linck">Сервера</a></li>
+
+               <li class="header__item"><a href="#" class="header__linck open-download">Скачать</a></li>
+
+               <li class="header__item"><a href="#" class="header__linck">Открыть в браузере</a></li>
+
+               <li class="header__item"><a href="#" data-goto="#tariffs" class="header__linck">Цены</a></li>
+
+               <li class="header__item"><a href="#" class="header__linck">Тех поддержка</a></li>
+
+               <li class="header__item"><a href="#" class="header__linck open-contact">Контакты</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <main class="page">
+         <div class="swiper">
+            <div class="swiper__slider">
+               <div class="swiper__swiper">
+                  <div class="swiper__slide">
+                     <div class="swiper__img swiper__img_1">
+                     </div>
+                  </div>
+                  <div class="swiper__slide">
+                     <div class="swiper__img swiper__img_2">
+                     </div>
+                  </div>
+                  <div class="swiper__slide">
+                     <div class="swiper__img swiper__img_3">
+                     </div>
+                  </div>
+                  <div class="swiper__slide">
+                     <div class="swiper__img swiper__img_4">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper__body">
+               <div class="swiper__text">
+                  Сервис облачного гейминга
+               </div>
+               <div class="swiper__lable">
+                  Преврати свое устройство в игровое
+               </div>
+               <button type="button" class="swiper__btn open-log">UPGRADE</button>
+            </div>
+            <button class="burger" type="button">
+               <span class="burger__decor"></span>
+               <span class="burger__decor"></span>
+            </button>
+
+            <div class="modal-burger">
+               <button type="button" class="modal-burger__btn">
+                  <img src="img/modal-burger/Arrow.svg" alt="">
+               </button>
+               <nav class="modal-burger__body">
+                  <a class="modal-burger__linck modal-selected" href="#">Главная</a>
+                  <a data-goto="#map" class="modal-burger__linck" href="#">Сервера</a>
+                  <a class="modal-burger__linck open-download" href="#">Скачать</a>
+                  <a class="modal-burger__linck" href="#">Открыть в браузере</a>
+                  <a data-goto="#tariffs" class="modal-burger__linck" href="#">Цены</a>
+                  <a class="modal-burger__linck" href="#">Тех поддержка</a>
+                  <a class="modal-burger__linck open-contact" href="#">Контакты</a>
+               </nav>
+               <div class="modal-burger__social">
+                  <a href="#" class="modal-burger__icon-linck">
+                     <img src="img/modal-burger/vk.svg" alt="">
+                  </a>
+                  <a href="#" class="modal-burger__icon-linck">
+                     <img src="img/modal-burger/discord.svg" alt="">
+                  </a>
+                  <a href="#" class="modal-burger__icon-linck">
+                     <img src="img/modal-burger/YouTube.svg" alt="">
+                  </a>
+               </div>
+               <img class="swiper__mob-logo" src="img/oll-img/mob-logo.svg" alt="">
+            </div>
+         </div>
+         <div class="gaming">
+            <div class="gaming__container">
+               <div class="gaming__img">
+                  <picture>
+                     <source srcset="img/gaming/image-pc.webp" type="image/webp"><img class="gaming__image"
+                        src="img/gaming/image-pc.png" alt="">
+                  </picture>
+               </div>
+               <div class="gaming__top">
+                  <div class="gaming__logo">
+                     <span class="decor"></span>
+                     Облачный гейминг
+                  </div>
+                  <div class="gaming__sub-logo sub-logo">
+                     Как это работает
+                  </div>
+                  <div class="gaming__text">
+                     Наши сервера запускают игру, и передают вам картинку, которой вы можете управлять в реальном
+                     времени!
+                  </div>
+               </div>
+               <div class="gaming__bottom">
+                  <div class="gaming__text">
+                     Приложение запустится на ПК с процессором от 1.5 GHz , от 1 Gb RAM и доступом в интернет от 15
+                     мбит/с на всех операционых системах Windows 7, 8, 10 MacOS и Linux .
+                  </div>
+                  <button type="button" class="gaming__btn btn open-download">Загрузить</button>
+               </div>
+            </div>
+         </div>
+         <div class="start">
+            <div class="start__container">
+               <div class="start__logo">
+                  <span class="decor"></span>
+                  Быстрый старт
+               </div>
+               <div class="start__sub-logo sub-logo">
+                  Начни играть
+               </div>
+               <div class="start__items">
+                  <div class="start__item item-start open-log">
+                     <div class="item-start__top">
+                        <div class="item-start__img">
+                           <img class="item-start__image" src="img/start/im1.svg" alt="">
+                        </div>
+                        <div class="start-decor"></div>
+                     </div>
+                     <div class="item-start__text">Cоздайте аккаунт</div>
+                  </div>
+                  <div class="start__item item-start open-download">
+                     <div class="item-start__top">
+                        <div class="item-start__img">
+                           <img class="item-start__image" src="img/start/im2.svg" alt="">
+                        </div>
+                        <div class="start-decor start-decor_none"></div>
+                     </div>
+                     <div class="item-start__text">Cкачайте модуль</div>
+                  </div>
+                  <div data-goto="#tariffs" class="start__item item-start">
+                     <div class="item-start__top">
+                        <div class="item-start__img">
+                           <img class="item-start__image" src="img/start/im3.svg" alt="">
+                        </div>
+                        <div class="start-decor"></div>
+                     </div>
+                     <div class="item-start__text">Выберите тариф</div>
+                  </div>
+                  <div class="start__item item-start open-log">
+                     <div class="item-start__top">
+                        <div class="item-start__img">
+                           <img class="item-start__image" src="img/start/im4.svg" alt="">
+                        </div>
+                     </div>
+                     <div class="item-start__text">Начни играть</div>
+                  </div>
+               </div>
+               <button type="button" class="start__btn btn open-log">Начать</button>
+            </div>
+         </div>
+         <div id="tariffs" class="tariffs">
+            <div class="tariffs__container">
+               <div class="tariffs__logo">
+                  <span class="decor"></span>
+                  Гибкие тарифы
+               </div>
+               <div class="tariffs__sub-logo sub-logo">
+                  Доступные подписки
+               </div>
+               <div class="tariffs__items">
+                  <div class="tariffs__item item-tariffs">
+                     <div class="item-tariffs__name">
+                        <div class="item-tariffs__logo">Почасовая оплата</div>
+                        <div class="item-tariffs__price">45 р. - час</div>
+                     </div>
+                     <div class="item-tariffs__info">
+                        <div class="item-tariffs__list-logo">
+                           Доступно:
+                        </div>
+                        <ul class="item-tariffs__list">
+                           <li>Каталог игр</li>
+                           <li>Виртуальный ПК</li>
+                           <li>Безлимитная игровая сессия</li>
+                        </ul>
+                     </div>
+                     <button type="button" class="item-tariffs__btn">Выбрать</button>
+                  </div>
+
+                  <div class="tariffs__item item-tariffs">
+                     <div class="item-tariffs__name">
+                        <div class="item-tariffs__logo">Подписка Максимум</div>
+                        <div class="item-tariffs__price">2999 р. - месяц</div>
+                     </div>
+                     <div class="item-tariffs__info">
+                        <div class="item-tariffs__list-logo">
+                           Доступно:
+                        </div>
+                        <ul class="item-tariffs__list">
+                           <li>Каталог игр</li>
+                           <li>Виртуальный ПК</li>
+                           <li>Игровая сессия 10 часов/день</li>
+                        </ul>
+                     </div>
+                     <button type="button" class="item-tariffs__btn">Выбрать</button>
+                  </div>
+                  <div class="tariffs__item item-tariffs">
+                     <div class="item-tariffs__name">
+                        <div class="item-tariffs__logo">Подписка Минимум</div>
+                        <div class="item-tariffs__price">1500 р. - месяц</div>
+                     </div>
+                     <div class="item-tariffs__info">
+                        <div class="item-tariffs__list-logo">
+                           Доступно:
+                        </div>
+                        <ul class="item-tariffs__list">
+                           <li>Каталог игр</li>
+                           <li>Игровая сессия 4 часов/день</li>
+                        </ul>
+                     </div>
+                     <button type="button" class="item-tariffs__btn">Выбрать</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="onbrowser">
+            <div class="onbrowser__container">
+               <div class="onbrowser__info">
+                  <div class="onbrowser__logo">
+                     <span class="decor"></span>
+                     Играть можно в браузере
+                  </div>
+                  <div class="onbrowser__sub-logo sub-logo">
+                     Запускайте на любых устройствах
+                  </div>
+                  <div class="mob-bg"></div>
+                  <div class="onbrowser__text">
+                     <p>
+                        Наш модуль доступен на все популярные ОС
+                        и работает на всех компьютерах.
+                     </p>
+                  </div>
+                  <button type="button" class="onbrowser__btn btn">Открыть в браузере</button>
+               </div>
+               <div data-da=".mob-bg, 992" class="onbrowser__img">
+               </div>
+            </div>
+         </div>
+         <div id="map" class="map">
+            <div class="map__logo">
+               <span class="decor"></span>
+               Игровые сервера на карте
+            </div>
+            <div class="map__sub-logo sub-logo">
+               Карта локаций
+            </div>
+            <div class="map__img">
+               <picture>
+                  <source srcset="img/map/map.webp" type="image/webp"><img class="map__image" src="img/map/map.png"
+                     alt="">
+               </picture>
+               <div class="map__lock">
+                  <img class="map__lock-image" src="img/map/map-lock.svg" alt="">
+                  <div class="map__citi">
+                     Регион
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__left">
+               <a href="#" class="footer__lable">
+                  <img class="footer__lable-image" src="img/oll-img/mob-logo.svg" alt="">
+               </a>
+               <div class="footer__data">2022. All rights reserved.</div>
+               <a href="#" class="footer__design">Design by desart</a>
+            </div>
+            <div class="footer__rigth">
+               <a href="#" class="footer__confidentiality">Политика конфиденциальности</a>
+               <div class="footer__coocie">Файлы Coocie</div>
+               <div class="footer__social">
+                  <a href="#" class="footer__linck"><img src="img/modal-burger/vk.svg" alt=""></a>
+                  <a href="#" class="footer__linck"><img src="img/modal-burger/discord.svg" alt=""></a>
+                  <a href="#" class="footer__linck"><img src="img/modal-burger/YouTube.svg" alt=""></a>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <div class="modal-download modal">
+      <div class="modal-download__body">
+         <div class="modal-download__wrap">
+            <button type="button" class="modal-download__back modal-close">
+               <img src="img/oll-img/small-arrow.svg" alt="">
+            </button>
+            <div class="modal-download__lable">Выберете операционную систему</div>
+         </div>
+
+         <div class="modal-download__sistems">
+            <button type="button" class="modal-download__os" title="Windows">
+               <img src="img/modal-download/windows.svg" alt="">
+            </button>
+            <button type="button" class="modal-download__os" title="Mac">
+               <img src="img/modal-download/mac.svg" alt="">
+            </button>
+            <button type="button" class="modal-download__os" title="Linux">
+               <img src="img/modal-download/linux.svg" alt="">
+            </button>
+            <button type="button" class="modal-download__os" title="Chrome">
+               <img src="img/modal-download/chrome.svg" alt="">
+            </button>
+         </div>
+      </div>
+   </div>
+   <div class="modal-contact modal">
+      <div class="modal-contact__body">
+         <div class="modal-contact__wrap">
+            <button type="button" class="modal-contact__back modal-close">
+               <img src="img/oll-img/small-arrow.svg" alt="">
+            </button>
+            <div class="modal-contact__lable">Контакты</div>
+         </div>
+         <div class="modal-contact__lincks">
+            <a href="#" class="modal-contact__linck">
+               <img class="modal-contact__image" src="img/modal-burger/vk.svg" alt="">
+            </a>
+            <a href="#" class="modal-contact__linck">
+               <img class="modal-contact__image" src="img/modal-burger/discord.svg" alt="">
+            </a>
+            <a href="#" class="modal-contact__linck">
+               <img class="modal-contact__image" src="img/modal-burger/YouTube.svg" alt="">
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="modal-log modal">
+      <div class="modal-in">
+         <div class="modal-in__body">
+            <div class="modal-in__wrap">
+               <button class="modal-in__back modal-close" type="button">
+                  <img src="img/oll-img/small-arrow.svg" alt="">
+               </button>
+               <div class="modal-in__log selected">Вход</div>
+               <div class="modal-in__registr">Регестрация</div>
+            </div>
+            <form class="modal-in__form" action="#" method="get">
+               <div class="modal-in__line">
+                  <input class="modal-in__text" placeholder="Почта / Телефон" type="text">
+               </div>
+               <div class="modal-in__line">
+                  <input class="modal-in__text" placeholder="Пароль" type="password">
+               </div>
+               <div class="modal-in__buttons">
+                  <div class="modal-in__check">
+                     <input class="modal-in__checkbox" type="checkbox" id="check-1">
+                     <label class="modal-in__label" for="check-1">Запомнить</label>
+                  </div>
+                  <button class="modal-in__btn" type="submit">Войти</button>
+               </div>
+            </form>
+            <div class="modal-in__social social-lincks">
+               <div class="social-lincks__logo">
+                  <div class="social-lincks__name">Войти через</div>
+               </div>
+               <div class="social-lincks__block-lincks">
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/mail.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/VK.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/OK.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Facebook.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Google.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Twitch.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Twitter.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Apple.svg" alt="">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal-registr">
+         <div class="modal-registr__body">
+            <div class="modal-registr__wrap">
+               <button class="modal-registr__back modal-close" type="button">
+                  <img src="img/oll-img/small-arrow.svg" alt="">
+               </button>
+               <div class="modal-registr__registr selected">Регестрация</div>
+               <div class="modal-registr__log">Вход</div>
+            </div>
+            <form class="modal-registr__form" action="#" method="get">
+               <div class="modal-registr__line">
+                  <input class="modal-registr__text" placeholder="Почта / Телефон" type="text">
+               </div>
+               <div class="modal-registr__line">
+                  <input class="modal-registr__text" placeholder="Пароль" type="password">
+               </div>
+               <div class="modal-registr__buttons">
+                  <button class="modal-registr__btn" type="submit">Зарегестрироваться</button>
+
+                  <div class="modal-registr__check">
+                     <input class="modal-registr__checkbox" type="checkbox" id="check-2">
+                     <label class="modal-registr__label" for="check-2">Я соглашаюсь со следующими установленными
+                        правилами: Политика использования файлов cookie WARPLAY.CLOUD, Пользовательское соглашение
+                        WARPLAY.CLOUD, Лицензионное соглашение MY.GAMES с конечным пользователем в отношении Игр,
+                        Лицензионное соглашение с конечным Пользователем для WARPLAY.CLOUD Игрового центра, Политика
+                        конфиденциальности портала WARPLAY.CLOUD, Политика конфиденциальности WARPLAY.CLOUD для
+                        детей</label>
+                  </div>
+               </div>
+            </form>
+            <div class="modal-registr__social social-lincks">
+               <div class="social-lincks__logo">
+                  <div class="social-lincks__name">Войти через</div>
+               </div>
+               <div class="social-lincks__block-lincks">
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/mail.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/VK.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/OK.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Facebook.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Google.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Twitch.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Twitter.svg" alt="">
+                  </a>
+                  <a href="#" class="social-lincks__linck">
+                     <img src="img/log/Apple.svg" alt="">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal-info modal">
+      <div class="modal-info__body">
+         <div class="modal-info__wrap">
+            <button type="button" class="modal-info__back modal-close">
+               <img src="img/oll-img/small-arrow.svg" alt="">
+            </button>
+            <div class="modal-info__lable selected">
+               На вашу почту отправлено подтверждение
+            </div>
+         </div>
+         <div class="modal-info__text">
+            <p class="modal-info__text-block">
+               На Ваш почтовый ящик отправлено сообщение, содержащее ссылку для подтверждения правильности e-mail
+               адреса. Пожалуйста, перейдите по ссылке для завершения подписки.
+            </p>
+            <p class="modal-info__text-block">
+               Если письмо не пришло в течение 15 минут, проверьте папку «Спам». Если письмо вдруг попало в эту папку,
+               откройте письмо, нажмите кнопку «Не спам» и перейдите по ссылке подтверждения. Если же письма нет и в
+               папке «Спам», попробуйте подписаться ещё раз. Возможно, вы ошиблись при вводе адреса.
+            </p>
+         </div>
+      </div>
+   </div>
+   <div class="modal-tariff modal">
+      <div class="modal-tariff__body">
+         <div class="modal-tariff__wrap">
+            <button type="button" class="modal-tariff__back modal-close">
+               <img src="img/oll-img/small-arrow.svg" alt="">
+            </button>
+            <div class="modal-tariff__lable selected">
+               Доступные подписки
+            </div>
+         </div>
+         <div class="modal-tariff__items">
+            <div class="modal-tariff__item item-tariffs">
+               <div class="item-tariffs__name">
+                  <div class="item-tariffs__logo">Почасовая оплата</div>
+                  <div class="item-tariffs__price">45 р. - час</div>
+               </div>
+               <div class="item-tariffs__info">
+                  <div class="item-tariffs__list-logo">
+                     Доступно:
+                  </div>
+                  <ul class="item-tariffs__list">
+                     <li>Каталог игр</li>
+                     <li>Виртуальный ПК</li>
+                     <li>Безлимитная игровая сессия</li>
+                  </ul>
+               </div>
+               <button type="button" class="item-tariffs__btn">Выбрать</button>
+            </div>
+
+            <div class="modal-tariff__item item-tariffs">
+               <div class="item-tariffs__name">
+                  <div class="item-tariffs__logo">Подписка Максимум</div>
+                  <div class="item-tariffs__price">2999 р. - месяц</div>
+               </div>
+               <div class="item-tariffs__info">
+                  <div class="item-tariffs__list-logo">
+                     Доступно:
+                  </div>
+                  <ul class="item-tariffs__list">
+                     <li>Каталог игр</li>
+                     <li>Виртуальный ПК</li>
+                     <li>Игровая сессия 10 часов/день</li>
+                  </ul>
+               </div>
+               <button type="button" class="item-tariffs__btn">Выбрать</button>
+            </div>
+            <div class="modal-tariff__item item-tariffs">
+               <div class="item-tariffs__name">
+                  <div class="item-tariffs__logo">Подписка Минимум</div>
+                  <div class="item-tariffs__price">1500 р. - месяц</div>
+               </div>
+               <div class="item-tariffs__info">
+                  <div class="item-tariffs__list-logo">
+                     Доступно:
+                  </div>
+                  <ul class="item-tariffs__list">
+                     <li>Каталог игр</li>
+                     <li>Игровая сессия 4 часов/день</li>
+                  </ul>
+               </div>
+               <button type="button" class="item-tariffs__btn">Выбрать</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="js/app.min.js"></script>
+</body>
+
+</html>
